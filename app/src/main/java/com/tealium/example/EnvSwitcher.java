@@ -81,6 +81,10 @@ public class EnvSwitcher extends Activity {
 
             }
         //}
+        Toast.makeText(
+                getApplication(),
+                String.format(Locale.US,"Environment Switched"),
+                Toast.LENGTH_SHORT).show();
     }
 
 }
